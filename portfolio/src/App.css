@@ -1,0 +1,68 @@
+body {
+  background-color: black;
+  color: #fff;
+}
+
+.gradiant-text {
+  -webkit-background-clip: text;
+  @apply bg-gradient-to-t from-blue-800 to-purple-800 text-transparent;
+}
+
+/* Transition pour l'animation d'image */
+.transition-transform {
+  transition: transform 0.5s ease-in-out;
+}
+
+/* État ouvert (affichage du contenu) */
+.open {
+  transform: translateX(0);
+}
+
+/* État fermé (masquer le contenu) */
+.closed {
+  transform: translateX(-100px);
+  /* Ajuste selon l'effet souhaité */
+}
+
+/* Masquer le contenu */
+.hidden {
+  display: none;
+}
+
+/* Affichage du contenu */
+.block {
+  display: block;
+}
+
+/* styles.css */
+.transition-text {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.5s ease-out, max-height 0.5s ease-out;
+}
+
+.transition-text.open {
+  opacity: 1;
+  max-height: 500px;
+  /* Assurez-vous que la hauteur est suffisamment grande pour contenir le texte */
+}
+
+.rotate-360 {
+  transform: rotate(360deg);
+}
+
+/* Inclinaison fixe pour la barre sous React */
+.custom-react-bar {
+  position: relative;
+  display: block;
+  transform: rotate(1deg);
+  /* Ajustez l'angle d'inclinaison selon vos besoins */
+  transform-origin: bottom left;
+  /* Fixe l'origine de la transformation */
+}
+
+/* Conteneur de la barre pour positionner le personnage */
+.relative {
+  position: relative;
+}
