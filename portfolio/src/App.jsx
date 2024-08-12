@@ -140,20 +140,20 @@ function App() {
         <section section >
           <div className="container m-auto px-4 py-14">
             <h2 className="text-2xl font-semibold">Skills & Compétence</h2>
-            <div className="flex justify-between mt-12 ">
-              <div>
+            <div className="grid grid-cols-3 gap-6 mt-12 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+              <div className="relative">
                 <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-purple-500 before:block before:rounded-full before:mt-1 before:-left-5 before:absolute relative left-5">Git</p>
               </div>
-              <div>
+              <div className="relative">
                 <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-purple-500 before:block before:rounded-full before:mt-1 before:-left-5 before:absolute relative left-5">Workpress</p>
               </div>
-              <div>
+              <div className="relative">
                 <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-purple-500 before:block before:rounded-full before:mt-1 before:-left-5 before:absolute relative left-5">English</p>
               </div>
-              <div>
+              <div className="relative">
                 <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-purple-500 before:block before:rounded-full before:mt-1 before:-left-5 before:absolute relative left-5">Travail d'équipe</p>
               </div>
-              <div>
+              <div className="relative">
                 <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-purple-500 before:block before:rounded-full before:mt-1 before:-left-5 before:absolute relative left-5">Apprentissage Rapide</p>
               </div>
             </div>
