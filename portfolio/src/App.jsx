@@ -6,6 +6,7 @@ import Sus from "./assets/suspendu.png"
 import ProfileFond from "./assets/Fond.png"
 import Project1 from "./assets/Project1.png"
 import Project2 from "./assets/Project2.png"
+import Project3 from "./assets/Project3.png"
 import About from "./About"
 
 function App() {
@@ -48,54 +49,89 @@ function App() {
             </div>
           </div>
         </section>
+
+
         {/*projetct*/}
         <section id="project">
           <div className="container m-auto px-4 py-12">
-            <h2 className="text-2xl font-semibold">Project</h2>
-            <div className="flex gap-10 mt-11">
-              <div className="border border-gray-500 rounded-md p-5">
-                <img src={Project1} />
-                <h3 className="text-2xl font-semibold mt-8"> location d’appartements </h3>
+            <h2 className="text-2xl font-semibold mb-8">Projects</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+              {/* Card 1 */}
+              <div className="border border-gray-500 rounded-md p-5 flex flex-col h-full">
+                <img src={Project2} className="w-full h-48 object-cover rounded-md" alt="Project2" />
+                <h3 className="text-2xl font-semibold mt-8">Location d’appartements</h3>
                 <p className="text-gray-400 text-sm mt-4">Responsive HTML/CSS, React</p>
                 <div className="flex justify-evenly mt-12">
-                  <button className="px-6 py-3 bg-gradient-to-t from-blue-800 rounded-full to-purple-800 hover:from-blue-900 hover:to-purple-900">live preview</button>
-                  <button className="px-6 py-3 border rounded-full hover:border-purple-600 hover:text-purple-600">GitHub</button>
+                  <a href="https://projet-8-nine.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    <button className="px-6 py-3 bg-gradient-to-t from-blue-800 rounded-full to-purple-800 hover:from-blue-900 hover:to-purple-900">
+                      Live Preview
+                    </button>
+                  </a>
+                  <a href="https://github.com/Djezer/projet-8" target="_blank" rel="noopener noreferrer">
+                    <button className="px-6 py-3 border rounded-full hover:border-purple-600 hover:text-purple-600">
+                      GitHub
+                    </button>
+                  </a>
                 </div>
               </div>
-              <div className="border border-gray-500 rounded-md p-5">
-                <img src={Project2} />
-                <h3 className="text-2xl font-semibold mt-8">Site de design d'intérieur </h3>
+              {/* Card 2 */}
+              <div className="border border-gray-500 rounded-md p-5 flex flex-col h-full">
+                <img src={Project1} className="w-full h-48 object-cover rounded-md" alt="Project1" />
+                <h3 className="text-2xl font-semibold mt-8">Site de design d'intérieur</h3>
+                <p className="text-gray-400 text-sm mt-4">Responsive HTML/CSS,React vite,API</p>
+                <div className="flex justify-evenly mt-12">
+                  <a href="https://project-10-three-pi.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    <button className="px-6 py-3 bg-gradient-to-t from-blue-800 rounded-full to-purple-800 hover:from-blue-900 hover:to-purple-900">
+                      Live Preview
+                    </button>
+                  </a>
+                  <a href="https://github.com/Djezer/project-10" target="_blank" rel="noopener noreferrer">
+                    <button className="px-6 py-3 border rounded-full hover:border-purple-600 hover:text-purple-600">
+                      GitHub
+                    </button>
+                  </a>
+                </div>
+              </div>
+              {/* Card 3 */}
+              <div className="border border-gray-500 rounded-md p-5 flex flex-col h-full">
+                <img src={Project3} className="w-full h-48 object-cover rounded-md" alt="Project3" />
+                <h3 className="text-2xl font-semibold mt-8">Site d'évenementiel</h3>
+                <p className="text-gray-400 text-sm mt-4">Responsive HTML/CSS,Debug,Test</p>
+                <div className="flex justify-evenly mt-12">
+                  <a href="https://project-10-three-pi.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    <button className="px-6 py-3 bg-gradient-to-t from-blue-800 rounded-full to-purple-800 hover:from-blue-900 hover:to-purple-900">
+                      Live Preview
+                    </button>
+                  </a>
+                  <a href="https://github.com/Djezer/project-10" target="_blank" rel="noopener noreferrer">
+                    <button className="px-6 py-3 border rounded-full hover:border-purple-600 hover:text-purple-600">
+                      GitHub
+                    </button>
+                  </a>
+                </div>
+              </div>
+              {/* Card 4 */}
+              <div className="border border-gray-500 rounded-md p-5 flex flex-col h-full">
+                <img src={Project2} className="w-full h-48 object-cover rounded-md" alt="Project2" />
+                <h3 className="text-2xl font-semibold mt-8">Site de design d'intérieur</h3>
                 <p className="text-gray-400 text-sm mt-4">Responsive HTML/CSS,</p>
                 <div className="flex justify-evenly mt-12">
-                  <button className="px-6 py-3 bg-gradient-to-t from-blue-800 rounded-full to-purple-800 hover:from-blue-900 hover:to-purple-900">live preview</button>
-                  <button className="px-6 py-3 border rounded-full hover:border-purple-600 hover:text-purple-600">GitHub</button>
+                  <a href="https://projet-8-nine.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    <button className="px-6 py-3 bg-gradient-to-t from-blue-800 rounded-full to-purple-800 hover:from-blue-900 hover:to-purple-900">
+                      Live Preview
+                    </button>
+                  </a>
+                  <a href="https://github.com/Djezer/projet-8" target="_blank" rel="noopener noreferrer">
+                    <button className="px-6 py-3 border rounded-full hover:border-purple-600 hover:text-purple-600">
+                      GitHub
+                    </button>
+                  </a>
                 </div>
               </div>
-
-            </div>
-            <div className="flex gap-10 mt-11">
-              <div className="border border-gray-500 rounded-md p-5">
-                <img src={Project1} />
-                <h3 className="text-2xl font-semibold mt-8"> location d’appartements </h3>
-                <p className="text-gray-400 text-sm mt-4">Responsive HTML/CSS, React</p>
-                <div className="flex justify-evenly mt-12">
-                  <button className="px-6 py-3 bg-gradient-to-t from-blue-800 rounded-full to-purple-800 hover:from-blue-900 hover:to-purple-900">live preview</button>
-                  <button className="px-6 py-3 border rounded-full hover:border-purple-600 hover:text-purple-600">GitHub</button>
-                </div>
-              </div>
-              <div className="border border-gray-500 rounded-md p-5">
-                <img src={Project2} />
-                <h3 className="text-2xl font-semibold mt-8">Site de design d'intérieur </h3>
-                <p className="text-gray-400 text-sm mt-4">Responsive HTML/CSS,</p>
-                <div className="flex justify-evenly mt-12">
-                  <button className="px-6 py-3 bg-gradient-to-t from-blue-800 rounded-full to-purple-800 hover:from-blue-900 hover:to-purple-900">live preview</button>
-                  <button className="px-6 py-3 border rounded-full hover:border-purple-600 hover:text-purple-600">GitHub</button>
-                </div>
-              </div>
-
             </div>
           </div>
         </section>
+
         {/*technologie*/}
         <section id="technologie" className="p-10">
           <div className="container m-auto px-4">
