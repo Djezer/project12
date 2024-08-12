@@ -20,13 +20,13 @@ function App() {
             <div>
               <ul className="flex gap-4">
                 <li>
-                  <a className="text-gray-400 hover:text-white cursor-pointer">Project</a>
+                  <a href="#project" className="text-gray-400 hover:text-white cursor-pointer">Project</a>
                 </li>
                 <li>
-                  <a className="text-gray-400 hover:text-white cursor-pointer">Technologie</a>
+                  <a href="#technologie" className="text-gray-400 hover:text-white cursor-pointer">Technologie</a>
                 </li>
                 <li>
-                  <a className="text-gray-400 hover:text-white cursor-pointer">A propos</a>
+                  <a href="#a-propos" className="text-gray-400 hover:text-white cursor-pointer">A propos</a>
                 </li>
               </ul>
             </div>
@@ -49,7 +49,7 @@ function App() {
           </div>
         </section>
         {/*projetct*/}
-        <section>
+        <section id="project">
           <div className="container m-auto px-4 py-12">
             <h2 className="text-2xl font-semibold">Project</h2>
             <div className="flex gap-10 mt-11">
@@ -97,7 +97,7 @@ function App() {
           </div>
         </section>
         {/*technologie*/}
-        <section className="p-10">
+        <section id="technologie" className="p-10">
           <div className="container m-auto px-4">
             <h2 className="text-2xl font-semibold">Technologie</h2>
             <div className="mt-14">
@@ -160,7 +160,7 @@ function App() {
           </div>
           {/* c'est moiiii*/}
         </section >
-        <section className="py-8">
+        <section id="a-propos" className="py-8">
           <div className="container m-auto px-4">
             <h2 className="text-2xl font-semibold">Parcours</h2>
             <div className="mt-12 relative before:absolute before:top-0 before:left-16 before:rounded-full before:bottom-0 before:w-1 before:bg-white">

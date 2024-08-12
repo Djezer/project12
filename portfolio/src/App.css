@@ -3,6 +3,10 @@ body {
   color: #fff;
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 .gradiant-text {
   -webkit-background-clip: text;
   @apply bg-gradient-to-t from-blue-800 to-purple-800 text-transparent;
