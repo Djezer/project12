@@ -52,16 +52,6 @@ body {
   transform: rotate(360deg);
 }
 
-/* Inclinaison fixe pour la barre sous React */
-.custom-react-bar {
-  position: relative;
-  display: block;
-  transform: rotate(1deg);
-  /* Ajustez l'angle d'inclinaison selon vos besoins */
-  transform-origin: bottom left;
-  /* Fixe l'origine de la transformation */
-}
-
 /* Conteneur de la barre pour positionner le personnage */
 .relative {
   position: relative;

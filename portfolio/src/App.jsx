@@ -125,10 +125,10 @@ function App() {
               <div className="relative mt-8">
                 <div className="flex justify-between items-center">
                   <h2 className="font-semibold">React</h2>
-                  <img src={Five} className="w-10 h-auto sm:w-12 md:w-14 lg:w-16 xl:w-20" alt="React" />
+                  <img src={Four} width={52} alt="JavaScript" />
                 </div>
                 <div className="relative mt-2">
-                  <span className="w-full h-2 bg-gradient-to-t from-purple-500 to-purple-800 block rounded-md custom-react-bar" />
+                  <span className="w-[85%] h-2 mt-2 bg-gradient-to-t from-purple-500 to-purple-800 block rounded-md" />
                 </div>
               </div>
             </div>
