@@ -80,12 +80,12 @@ function App() {
                 <h3 className="text-2xl font-semibold mt-8">Site de design d'intérieur</h3>
                 <p className="text-gray-400 text-sm mt-4">Responsive HTML/CSS,React vite,API</p>
                 <div className="flex justify-evenly mt-12">
-                  <a href="https://project-10-three-pi.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://projet-8-nine.vercel.app/" target="_blank" rel="noopener noreferrer">
                     <button className="px-6 py-3 bg-gradient-to-t from-blue-800 rounded-full to-purple-800 hover:from-blue-900 hover:to-purple-900">
                       Live Preview
                     </button>
                   </a>
-                  <a href="https://github.com/Djezer/project-10" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/Djezer/projet-8" target="_blank" rel="noopener noreferrer">
                     <button className="px-6 py-3 border rounded-full hover:border-purple-600 hover:text-purple-600">
                       GitHub
                     </button>
